@@ -113,7 +113,7 @@ header ul li {
     margin-bottom: 0px;
 }
 
-@media (max-width:320px) {
+@media (max-width:460px) {
     .up {
         background: url(../Object/img/global/Backimage.jpg) no-repeat center top / cover;
         background-size: 340px;
@@ -127,7 +127,7 @@ header ul li {
         border-top-right-radius: 0;
         border-bottom: 0px;
         background: #252525;
-        width: 305px;
+        width: 340px;
     }
     
     .sec h3{ 

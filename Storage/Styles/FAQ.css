@@ -52,13 +52,13 @@ h4 {
     margin-bottom: 20px;
 }
 
-@media (max-width:320px) {
+@media (max-width:460px) {
     .FAQ {
         background: #111111;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
-        width: 310px;
+        width: 340px;
         border-bottom-left-radius: 65px;
         border-bottom-right-radius: 65px;
     }
@@ -80,7 +80,7 @@ h4 {
         text-decoration: none;
         color: #fff;
         font-family: "Inter";
-        margin-right: 26px;
+        margin-right: 42px;
     }
     
     .cont{
