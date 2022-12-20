@@ -1,14 +1,14 @@
 @font-face {
     font-family: Inter-h3;
-    src: url(fonts/Inter-SemiBold.otf);
+    src: url(../Object/font/Inter-SemiBold.otf);
 }
 @font-face {
     font-family: Inter-p;
-    src: url(fonts/Inter-Light.otf);
+    src: url(../Object/font/Inter-Light.otf);
 }
 @font-face {
     font-family: Inter-menu;
-    src: url(fonts/Inter-ExtraLightItalic.otf);
+    src: url(../Object/font/Inter-ExtraLightItalic.otf);
 }
 
 
@@ -19,7 +19,7 @@ body {
 }
 
 .up {
-    background: url(img/Backimage.jpg) no-repeat center top / cover;
+    background: url(../Object/img/global/Backimage.jpg) no-repeat center top / cover;
 }
 
 .sec {
@@ -38,10 +38,10 @@ body {
     font-family: 'Inter-h3';
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 32px;
     line-height: 51px;
     letter-spacing: 0.05em;
-    padding-top: 99;
+    padding-top: 33;
     color: fff;
 }
 
@@ -50,15 +50,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1310px;
-    height: 420px;
+    height: 320px;
     font-family: 'Inter-p';
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 22px;
     text-align: justify;
     line-height: 50px;
     text-indent: 150px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
     font-feature-settings: 'tnum' on, 'lnum' on;
 }
 
@@ -88,42 +88,6 @@ header ul li {
     display: flex;
 }
 
-.selector {
-    position: absolute;
-    width: 221px;
-    height: 65px;
-    left: 260px;
-    top: 363px;
-}
-.nonselector-1 {
-    position: absolute;
-    width: 221px;
-    height: 65px;
-    left: 550px;
-    top: 363px;
-}
-.nonselector-2 {
-    position: absolute;
-    width: 221px;
-    height: 65px;
-    left: 819px;
-    top: 363px;
-}
-.nonselector-3 {
-    position: absolute;
-    width: 221px;
-    height: 65px;
-    left: 1064px;
-    top: 363px;
-}
-.nonselector-4 {
-    position: absolute;
-    width: 221px;
-    height: 65px;
-    left: 1311px;
-    top: 363px;
-}
-
 .main{
     padding-top: 21px;
     margin-bottom: 261px;
@@ -146,35 +110,5 @@ header ul li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.abz-01 {
-    display: flex;
-}
-.abz-01 img {
-    width: 618px;
-    height: 500px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 36px;
-    margin-left: 86px;
-    border-radius: 50px;
-}
-.abz-01 p {
-    height: 680px;
-    margin-top: 0px;
-    margin-right: 86px;
-}
-
-.img-end {
-    width: 1060px;
-    height: 556px;
-    border-radius: 100px;
-}
-
-#end {
-    text-align: center;
-    height: 190px;
     margin-bottom: 0px;
 }
