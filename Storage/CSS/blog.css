@@ -45,3 +45,41 @@
 body h3{
     margin-bottom: 0px;
 }
+
+@media (max-width:320px) {
+    .selector {
+        position: absolute;
+        width: 37;
+        height: 15px;
+        left: 154px;
+        top: 103px;
+    }
+    .nonselector-1 {
+        position: absolute;
+        width: 54;
+        height: 15;
+        left: 99px;
+        top: 103;
+    }
+    .nonselector-2 {
+        position: absolute;
+        width: 54;
+        height: 15;
+        left: 44px;
+        top: 103;
+    }
+    .nonselector-3 {
+        position: absolute;
+        width: 39px;
+        height: 15;
+        left: 194px;
+        top: 103;
+    }
+    .nonselector-4 {
+        position: absolute;
+        width: 54;
+        height: 15;
+        left: 236px;
+        top: 103;
+    }
+}
