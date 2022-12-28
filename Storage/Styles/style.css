@@ -114,6 +114,11 @@ header ul li {
 }
 
 @media (max-width:460px) {
+    html {
+        width: 320;
+        height: 1022;
+    }
+
     .up {
         background: url(../Object/img/global/Backimage.jpg) no-repeat center top / cover;
         background-size: 340px;
